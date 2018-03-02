@@ -1,0 +1,91 @@
+header #navbar {
+    list-style-type: none;
+    padding: 0;
+    float: right;
+    width: 100%;
+    background-image: url(../images/udsk%C3%A5ret%20header.png);
+}
+
+body {
+    background-image: url(../images/baggrund.png)
+}
+
+header li a {
+    display: block;
+    color: black;
+    text-decoration: none;
+}
+
+header .white-text li a {
+    color: white;
+}
+
+header li {
+    float: right;
+    display: block;
+    padding: 20px 10px;
+    font-family: verdana;
+    font-size: 200%;
+}
+
+header li a:hover {
+    background-color: #555;
+    color: white;
+}
+
+#logo {
+    height: 100px;
+}
+
+#landingpage {
+    background-image: url(../images/bageriogdeli.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#fb {
+    height: 45px;
+    float: right;
+    margin-top: 12px;
+}
+
+#ig {
+    height: 50px;
+    float: right;
+    margin-top: 10px;
+}
+
+#pil {
+    text-align: center;
+    margin-top: 40%;
+}
+
+nav li {
+    list-style-type: none;
+    font-size: 150%;
+}
+
+nav {
+    background-image: url(../images/texture.png);
+    width: 15%;
+    position: fixed;
+    margin-top: 7%;
+}
+
+h2 {
+    text-align: center;
+    font-size: 220%;
+}
+
+#proces {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#produkter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+

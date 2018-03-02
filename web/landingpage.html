@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="utf-8">
+    <!-- HUSK AT UDFYLDE BESKRIVELSE TIL SEO-->
+    <meta name="Title" content="Mor Anna BAGER OG DELI, Mejlgade 5">
+    <meta name="Description" content="Mor Anna er et bageri med tilhørende delikatesse og vinbutik i Mejlgade 5. Vi lægger vægt på økologi uden at gå på kompromis med kvaliteten. Alt vores brød er bagt i stenvovn. Vi har både bagværk og specialiteter på menuen - f.eks. vin, kaffe, mel, kerner, sandwich, smørrebrød. Bestil din frokost online her.">
+    <meta name="Keywords" content="Bager, delikatesse, vin, specialiteter, mel, kerner, kaffe, Mejlgade, Århus, centrum, kage, brød, stenovn, sandwich, kvalitet, økologi, smørrebrød, rugbrød, deli, bedste, populære, mor, anna, casablanca, miljø, bestil">
+    <meta name="Author" content="Gruppe F">
+    <title>Mor Anna, Mejlgade 5</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- JAVASCRIPT EFFEKT (taget fra w3schools)-->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $("a").on('click', function(event) {
+                if (this.hash !== "") {
+                    event.preventDefault();
+                    var hash = this.hash;
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top
+                    }, 800, function() {
+                        window.location.hash = hash;
+                    });
+                }
+            });
+        });
+    </script>
+
+
+    <style>
+        body,
+        html,
+        .main {
+            height: 100%;
+        }
+
+        section {
+            min-height: 100%;
+        }
+    </style>
+
+    <!-- JAVASCRIPT EFFEKT slut-->
+
+</head>
+
+<body id="landingpage">
+    <header>
+        <ul class="white-text">
+            <a href="landingpage.html">
+            <img id="logo" src="images/moranna.png" alt="Mor Anna logo">
+            </a>
+            <a href="https://da-dk.facebook.com/morannabageri/" target="_blank">
+            <img id="fb" src="images/facebooklogo.png" alt="Facebook">
+            </a>
+            <a href="https://www.instagram.com/mor_anna_/" target="_blank">
+            <img id="ig" src="images/instagramlogo.png" alt="Instagram">
+            </a>
+            <li><a href="bestilling.html">Bestilling</a></li>
+            <li><a href="#section3">Nysgerrig</a></li>
+            <li><a href="#section2">Menu</a></li>
+        </ul>
+
+    </header>
+    
+    <div style="text-align: center" id="pil">
+        <a href="#section2"> <img src="images/pilned.png" alt="Pil ned"></a>
+    </div>
+    <img src="images/Menu.png" style="width:100%" id="section2" alt="Menu">
+    <img src="images/menuvalg.png" style="width:100%" alt="Menuvalg">
+    <img src="images/nysgerrig.png" style="width:100%" id="section3" alt="Nysgerrig">
+    <img src="images/aabningstider.png" style="width:100%" alt="Åbningstider">
+    <img src="images/footer.png" style="width:100%" alt="Footer">
+</body>
+
+</html>
